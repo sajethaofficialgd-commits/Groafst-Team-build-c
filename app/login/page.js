@@ -79,7 +79,7 @@ export default function LoginPage() {
               type="password"
               required
               className="w-full rounded-xl border border-[var(--border)] bg-transparent px-4 py-2"
-              placeholder="••••••••"
+              placeholder="********"
               value={form.password}
               onChange={(event) => setForm({ ...form, password: event.target.value })}
             />
